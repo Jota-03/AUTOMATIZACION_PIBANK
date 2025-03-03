@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-03T11:07:08 COT" name="Default suite" finished-at="2025-03-03T11:07:46 COT" duration-ms="38302">
+  <suite started-at="2025-03-03T11:34:57 COT" name="Default suite" finished-at="2025-03-03T11:35:12 COT" duration-ms="15014">
     <groups>
     </groups>
-    <test started-at="2025-03-03T11:07:08 COT" name="Default test" finished-at="2025-03-03T11:07:46 COT" duration-ms="38302">
+    <test started-at="2025-03-03T11:34:57 COT" name="Default test" finished-at="2025-03-03T11:35:12 COT" duration-ms="15014">
       <class name="RunPruebas.RunPrincipalTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:RunPruebas.RunPrincipalTest@5d1bdd4a]" started-at="2025-03-03T11:07:08 COT" name="beforeClass" finished-at="2025-03-03T11:07:08 COT" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:RunPruebas.RunPrincipalTest@4137aab0]" started-at="2025-03-03T11:34:58 COT" name="beforeClass" finished-at="2025-03-03T11:34:58 COT" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="CasoDePrueba1215564(java.lang.String,java.lang.String)[pri:0, instance:RunPruebas.RunPrincipalTest@5d1bdd4a]" started-at="2025-03-03T11:07:09 COT" name="CasoDePrueba1215564" data-provider="DataPichincha" finished-at="2025-03-03T11:07:45 COT" duration-ms="36836" status="PASS">
+        <test-method signature="CasoDePrueba1215564(java.lang.String,java.lang.String)[pri:0, instance:RunPruebas.RunPrincipalTest@4137aab0]" started-at="2025-03-03T11:34:58 COT" name="CasoDePrueba1215564" data-provider="DataPichincha" finished-at="2025-03-03T11:35:11 COT" duration-ms="13711" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CasoDePrueba1215564 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:RunPruebas.RunPrincipalTest@5d1bdd4a]" started-at="2025-03-03T11:07:45 COT" name="afterClass" finished-at="2025-03-03T11:07:46 COT" duration-ms="551" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:RunPruebas.RunPrincipalTest@4137aab0]" started-at="2025-03-03T11:35:11 COT" name="afterClass" finished-at="2025-03-03T11:35:12 COT" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
