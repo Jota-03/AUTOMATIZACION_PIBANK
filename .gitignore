@@ -1,0 +1,10 @@
+/.metadata/
+/.sonarlint/
+/proyecto_java/log/*.log
+/proyecto_java/outputData/CasoDePrueba*
+/proyecto_java/allure-results/*.json
+/proyecto_java/infra/screenshots
+/ORQUESTADOR/TestResults
+/proyecto_java/outputDataorquestador/*
+!/proyecto_java/outputDataorquestador/.gitkeep
+.vs/

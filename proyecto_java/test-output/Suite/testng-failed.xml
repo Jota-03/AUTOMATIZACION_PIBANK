@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="rutaOutput" value="./output/"/>
+    <parameter name="rutaImagenReporteBMC" value="./imagenes/logoBMC.png"/>
+    <classes>
+      <class name="RunPruebas.RunSP3_HU09">
+        <methods>
+          <include name="SP3_HU09_CP14"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="SP3_HU09_CP33"/>
+          <include name="SP3_HU09_CP12" invocation-numbers="0"/>
+          <include name="SP3_HU09_CP10" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RunPruebas.RunSP3_HU09 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

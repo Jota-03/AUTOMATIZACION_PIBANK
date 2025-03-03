@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="filename">./log</Property>
+	</Properties>
+	
+	<Appenders>
+		<RollingFile name="file" 
+					filePattern="${filename}/logEvidencias-%d{HH-mm-ss}.log">
+					
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			
+			<SizeBasedTriggeringPolicy size="10 MB" />
+		</RollingFile>
+	</Appenders>
+	
+	<Loggers>
+		<Logger name="RunPruebas" level="info" additivity="false">
+			<AppenderRef ref="file" />
+		</Logger>
+		
+		<Root level="fatal">
+			<AppenderRef ref="file" />
+		</Root>
+	</Loggers>
+	
+</Configuration>
